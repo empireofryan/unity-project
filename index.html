@@ -1,25 +1,305 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+
   <head>
+
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | 3D Marketplace</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Webgl.json", {onProgress: UnityProgress});
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Landing Page - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
+
   </head>
+
   <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">3D Marketplace</div>
+
+    <!-- Navigation -->
+<div class="mobile">
+  <p>3DWebMall is not currently supported on mobile devices. Please try with a laptop or desktop.</p>
+</div>
+<div class="desktop">
+    <!-- Masthead -->
+    <header class="masthead1 background-tint text-white text-center">
+      <div class="overlay" ></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto" style="margin-top:-50px;">
+            <!-- <img src="img/3dwebmall6.png"> -->
+            <div style="font-size:4em; background-color:rgba(60, 68, 70, 0.3); padding:5px">3DWebMall</div>
+            <h1 class="mb-5" style="background-color:rgba(60, 68, 70, 0.3); padding:5px">A three-dimensionsal virtual shopping experience in your browser</h1>
+            <a href="http://www.3dwebmall.com/play.html"><button class="launch">Launch 3DWebMall</button></a>
+            <p style="color:rgb(244, 244, 244);">(best viewed with Firefox or Chrome)</p><br><br>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form>
+              <div class="form-row">
+                <div class="col-12 col-md-9 mb-2 mb-md-0">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email for updates...">
+                  <div style="padding-top:20px; margin: 0 auto;">
+                    <!-- <div style="text-align:center;">Enter your email to get updates</div> -->
+                  </div>
+                </div>
+                <div class="col-12 col-md-3">
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
+    </header>
+
+    <!-- Icons Grid -->
+    <!-- <section class="features-icons bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-screen-desktop m-auto text-primary"></i>
+              </div>
+              <h3>Fully Responsive</h3>
+              <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-layers m-auto text-primary"></i>
+              </div>
+              <h3>Bootstrap 4 Ready</h3>
+              <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-check m-auto text-primary"></i>
+              </div>
+              <h3>Easy to Use</h3>
+              <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Image Showcases -->
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/fromstart.png');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Shop for Amazon Products in Virtual Reality</h2>
+            <p class="lead mb-0">Browse products in a VR world, just click on products to add to your Amazon cart in a new tab.</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('https://cdn.freebiesupply.com/logos/large/2x/unity-69-logo-png-transparent.png');" style="border:3px solid black; width:50%;"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+              <h2>Nothing to Download</h2>
+              <p class="lead mb-0">3DWebMall runs in the browser using WebGL, compiled from <a href="https://unity3d.com/">Unity</a>. Just wait about 30 seconds on a high-speed connection to load the environment.</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/amazonsonyscreenshot.png');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+              <h2>Curated Items</h2>
+              <p class="lead mb-0">All items are handpicked by the 3DWebMall team, with categories from electronics, birthday gifts, to household essentials.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+
+.box {
+  /* width: 300px;
+  height: 300px; */
+  background-size: cover;
+  background-image: url("../img/tvs.png") no-repeat center center;
+}
+
+/* .background-tint {
+  background-color: rgba(200,100,0,.3);
+  background-blend-mode: multiply;
+} */
+
+    .masthead1 {
+      background: rgba(0, 0, 0, 0.2); /*can be anything, of course*/
+      position: relative;
+      background: black;
+      background: url("../img/tvs.png") no-repeat center center;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+    }</style>
+
+    <!-- Testimonials -->
+    <!-- <section class="testimonials text-center bg-light">
+      <div class="container">
+        <h2 class="mb-5">What people are saying...</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+              <h5>Margaret E.</h5>
+              <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+              <h5>Fred S.</h5>
+              <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+              <h5>Sarah	W.</h5>
+              <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Call to Action -->
+    <section class="call-to-action text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+          </div>
+          <!-- <a href="http://www.3dwebmall.com/play.html"> <button style=" background:rgb(255, 255, 255);">Launch 3DWebMall</button></a></div> -->
+          <div style="text-align:center; margin: 0 auto;"><a class="button" href="http://www.3dwebmall.com/play.html">Launch 3DWebMall</a></div>
+          <style>
+          .button {
+            background: red;
+            color: white;
+            padding: 15px 20px; 
+          }
+          </style>
+          <!-- <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form>
+              <div class="form-row">
+                <div class="col-12 col-md-9 mb-2 mb-md-0">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                </div>
+                <div class="col-12 col-md-3">
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+                </div>
+              </div>
+            </form>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Contact</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Blog</a>
+              </li>
+           
+   
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; 3DWebMall 2018. All Rights Reserved.</p>
+          </div>
+          <!-- <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fa fa-facebook fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fa fa-twitter fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-instagram fa-2x fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </footer>
     </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <style>
+    .launch {
+      transition: .3s;
+      padding:15px 45px; 
+      border: 2px solid black;
+      
+    } 
+    .launch:hover {
+      transition: .3s;
+      background: red;
+      border: 2px solid black;
+    }
+    header.masthead {
+      padding-top: 6rem;
+      padding-bottom: 4rem;
+    }
+    @media only screen and (max-width: 400px) {
+      .desktop {
+        display:none;
+      }
+      .mobile {
+        visibility: visible;
+        padding:30px;
+        text-align:center;
+      }
+    }
+    @media only screen and (min-width: 401px) {
+      .desktop {
+        visibility: visible;
+      }
+      .mobile {
+        display:none;
+      }
+    }
+    </style>
   </body>
+
 </html>
